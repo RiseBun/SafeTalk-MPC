@@ -45,7 +45,7 @@ SafeTalk-MPC/
 ├─ patch/                     # 示例 JSON 补丁（可选）
 ├─ exp/                       # 实验输出（建议忽略版本控制）
 ├─ requirements.txt
-├─ run.py                     # 一键开始文件，运行之后输入
+├─ run.py                     # 一键开始文件，运行之后输入自然语言
 └─ README.md
 ```
 
