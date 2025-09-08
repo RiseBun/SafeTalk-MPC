@@ -6,6 +6,8 @@ _tmp_task.json
 *_result.png
 *_anim.mp4
 *_metrics.json
+llm_runs.csv
+sem2mpc/llm_runs.csv
 
 # python cache
 __pycache__/
