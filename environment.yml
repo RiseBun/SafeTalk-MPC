@@ -1,0 +1,9 @@
+name: mpcenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - casadi
+  - numpy
+  - matplotlib
+  - ffmpeg

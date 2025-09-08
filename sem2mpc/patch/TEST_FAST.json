@@ -1,0 +1,4 @@
+﻿{
+  "constraints": { "v_max": 1.10, "a_max": 1.60 },
+  "speed_cap":   { "v_far": 1.30, "v_near": 0.35 }
+}

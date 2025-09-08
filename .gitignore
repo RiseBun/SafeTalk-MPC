@@ -1,0 +1,23 @@
+# runtime artifacts
+exp/
+llm_logs/
+last_patch.json
+_tmp_task.json
+*_result.png
+*_anim.mp4
+*_metrics.json
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# env & OS
+.env
+.venv/
+venv/
+.DS_Store
+
+# local tools
+tools/

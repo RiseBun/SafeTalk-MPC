@@ -1,0 +1,41 @@
+{
+  "start": [0.0, 0.0, 0.0, 0.0, 0.0],
+  "goal":  [2.0, 1.0, 0.0, 0.0, 0.0],
+
+  "insert_midpoint": false,
+
+  "no_backtrack": { "enabled": true, "epsilon": 0.002 },
+  "speed_cap":    { "enabled": true, "d0": 0.9, "v_far": 1.20, "v_near": 0.28 },
+
+  "horizon": 180,
+  "dt": 0.08,
+
+  "weights": {
+    "state": [18, 18, 2.5, 0.1, 0.1],
+    "control": [0.08, 0.08],
+    "terminal_velocity": 30.0,
+    "terminal_steer": 3.5
+  },
+
+  "u_rate_weight": 0.45,
+  "terminal_scale": 2.2,
+
+  "terminal_box": {
+    "enabled": true,
+    "half_sizes": [0.05, 0.05]
+  },
+
+  "constraints": {
+    "a_min": -1.2,
+    "a_max":  1.8,
+    "delta_min": -0.50,
+    "delta_max":  0.50,
+    "v_min": 0.0,
+    "v_max": 0.90
+  },
+
+  "obstacle": { "center": [1.2, 0.5], "radius": 0.45 },
+
+  "risk": "med",
+  "shield": { "mode": "hybrid", "weight": 8.0 }
+}
