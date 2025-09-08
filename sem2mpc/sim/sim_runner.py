@@ -57,25 +57,6 @@ except Exception:
     except Exception:
         _mk_ollama = None
 
-# OpenAI
-try:
-    from sem2mpc.semantics.providers.openai_provider import make_openai_provider as _mk_openai
-except Exception:
-    try:
-        from semantics.providers.openai_provider import make_openai_provider as _mk_openai
-    except Exception:
-        _mk_openai = None
-
-# DashScope
-try:
-    from sem2mpc.semantics.providers.dashscope_provider import make_dashscope_provider as _mk_dashscope
-except Exception:
-    try:
-        from semantics.providers.dashscope_provider import make_dashscope_provider as _mk_dashscope
-    except Exception:
-        _mk_dashscope = None
-
-
 
 # -------------------------
 # 工具函数
