@@ -6,8 +6,10 @@ _tmp_task.json
 *_result.png
 *_anim.mp4
 *_metrics.json
-llm_runs.csv
-sem2mpc/llm_runs.csv
+*llm_runs*.csv
+**/*llm_runs*.csv
+outputs/
+results/
 
 # python cache
 __pycache__/
@@ -19,7 +21,13 @@ __pycache__/
 .env
 .venv/
 venv/
+env/
 .DS_Store
+Thumbs.db
 
 # local tools
 tools/
+
+# editor / notebook
+.ipynb_checkpoints/
+.vscode/
