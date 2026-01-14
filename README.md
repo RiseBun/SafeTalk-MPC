@@ -49,7 +49,6 @@ SafeTalk-MPC/
 └─ README.md
 ```
 
-> 运行生成物（`exp/`、`*_result.png`、`*_anim.mp4`、`*_metrics.json`、`last_patch.json`、`_tmp_task.json`、`llm_logs/`）建议通过 `.gitignore` 排除，保持仓库整洁。
 
 ---
 
